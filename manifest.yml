@@ -1,0 +1,7 @@
+---
+applications:
+- name: CAPDemo
+  path: srv/target/CAPDemo-exec.jar
+  random-route: true
+  services:
+  - bookstore-hana
